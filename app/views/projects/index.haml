@@ -1,0 +1,21 @@
+.container
+  .projects-layout
+    .row-
+      - @projects.each do |project|
+        =link_to project_path(project) do
+          .col-md-6.project
+            .project
+              .thumbnail-header
+                .thumbnail-header-btn
+                .thumbnail-header-btn
+                .thumbnail-header-btn
+              .project-main-photo
+                -unless project.pictures.blank?
+                  -unless project.pictures.first.main_image.blank?
+                    =image_tag project.pictures.first.main_image
+              .title
+                %h2
+                  =project.title
+              .description
+                %p
+                  =project.description
