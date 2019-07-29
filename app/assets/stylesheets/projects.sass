@@ -5,6 +5,10 @@
   width: 100%
   height: 100%
 
+img
+  width: 100%
+  height: 100%
+
 .title
   text-align: center
 
@@ -15,12 +19,22 @@
   height: 10px
   margin: 5px 0 0 5px
   width: 10px
+  transition: background-color .5s
 
 .thumbnail-header
   background-color: #eaeff4
   display: block
   height: 20px
   width: 100%
+
+.project:hover .exit
+  background-color: #FF605C
+
+.project:hover .minimalize
+  background-color: #FFBD44
+
+.project:hover .full_screen
+  background-color: #00CA4E
 
 .col-md-6.project
   display: inline-block
@@ -35,11 +49,15 @@
   text-overflow: ellipsis
   font-weight: 100
 
-.project
+.project .description
   color: black
   transition: color .5s
-.project:hover
-  color: #730E15
+
+.project
+  color: black
+
+.project:hover .description
+  color: #F9C348
 
 .project p, h2
   padding: 0 20px 0
@@ -47,3 +65,9 @@
 
 .project h2
   margin-top: 20px
+
+.project-main-photo
+  padding: 50px
+
+.amaz-desc
+  

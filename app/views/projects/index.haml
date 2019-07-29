@@ -1,14 +1,20 @@
 .container
+  -#.flexslider
+  -#  %ul.slides
+  -#    %li
+  -#      %img{:src => "/sunset.jpg"}
+  -#    %li
+  -#      %img{:src => '/shop.jpg'}
   .projects-layout
-    .row-
+    .row
       - @projects.each do |project|
         =link_to project_path(project) do
           .col-md-6.project
             .project
               .thumbnail-header
-                .thumbnail-header-btn
-                .thumbnail-header-btn
-                .thumbnail-header-btn
+                .thumbnail-header-btn.exit
+                .thumbnail-header-btn.minimalize
+                .thumbnail-header-btn.full_screen
               .project-main-photo
                 -unless project.pictures.blank?
                   -unless project.pictures.first.main_image.blank?
