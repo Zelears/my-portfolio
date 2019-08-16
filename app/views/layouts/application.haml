@@ -29,22 +29,21 @@
               %li.nav-item.active
                 %a.nav-link{:href => "#"} Blog
               %li.nav-item.active
-                %a.nav-link{:href => "#"} About
+                %a.nav-link{:href => "/about"} About
               %li.nav-item.active
                 %a.nav-link{:href => "#"} Contact
             .autor
               %hr
                 %h1 ~Piotr Skłodowski
     = yield
-    .container
-      .footer
-        %ul
-          %li
-            %a{ :href => 'https://github.com/Zelears'}
-              = image_tag("https://image.flaticon.com/icons/svg/25/25231.svg")
-          %li
-            %a{ :href => 'https://www.linkedin.com/in/piotr-sk%C5%82odowski-8181a818b/'}
-              = image_tag("https://image.flaticon.com/icons/svg/1384/1384030.svg")
+    .footer
+      %ul
+        %li
+          %a{ :href => 'https://github.com/Zelears'}
+            = image_tag("https://image.flaticon.com/icons/svg/25/25231.svg")
+        %li
+          %a{ :href => 'https://www.linkedin.com/in/piotr-sk%C5%82odowski-8181a818b/'}
+            = image_tag("https://image.flaticon.com/icons/svg/1384/1384030.svg")
       .autor
         %h3 @ 2019 Piotr Skłodowski
     %script{:crossorigin => "anonymous", :integrity => "sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo", :src => "https://code.jquery.com/jquery-3.3.1.slim.min.js"}

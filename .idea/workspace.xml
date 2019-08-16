@@ -2,24 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fe602c5-b70f-4657-bf7c-b4a50d81b272" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/angular/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.generators" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.generators" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/pages/about.haml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.rakeTasks" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/my-portfolio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/my-portfolio.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/pages.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/pages.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/pages.scss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/projects.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/projects.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/pages_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/pages_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/layouts/application.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/pages/welcome.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/pages/welcome.haml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/projects/index.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/projects/index.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/projects/show.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/projects/show.haml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="my-portfolio" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -32,6 +41,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -164,6 +174,8 @@
       <workItem from="1564825149663" duration="767000" />
       <workItem from="1565165759467" duration="134000" />
       <workItem from="1565248454838" duration="12322000" />
+      <workItem from="1565941429230" duration="69000" />
+      <workItem from="1565941505970" duration="6503000" />
     </task>
     <servers />
   </component>

@@ -3,33 +3,19 @@
     - @projects.each do |project|
       .col-md-6.text-dark
         =link_to project_path(project) do
-          #project.card.border-0
+          .project
             .thumbnail-header
               .thumbnail-header-btn.exit
               .thumbnail-header-btn.minimalize
               .thumbnail-header-btn.full_screen
-            .card-img-top
+            .portfolio-main-image
               -unless project.pictures.blank?
                 -unless project.pictures.first.main_image.blank?
                   =image_tag project.pictures.first.main_image
             .card-body
-              %h4.card-title.font-weight-bold
-                =project.title
-              %p#short-description.card-text.font-weight-light
-                =project.description
-    %p
-      Menu-down icon as a link:
-      %a{:href => "#"}
-      %i.fas.fa-chevron-down
-
-    %th
-      Header1
-      %span.glyphicon.glyphiconsort.pull-right{"ng-class" => "{          'active': activeColumn === c.name,          'glyphicon-chevron-down': ascending === false,          'glyphicon-chevron-up': ascending === true     }", "ng-click" => "setOrderProperty(c.name)"}
-    %th
-      Header2
-      %span{"ng-click" => "setOrderProperty('c.name2')"}>
-      \...
-      %th
-        Header3
-        %span{"ng-click" => "setOrderProperty('c.name3')"}>
-        \...
+              .title
+                %h4
+                  =project.title
+              .portfolio-short-description
+                %p.card-text.font-weight-light
+                  =project.description
