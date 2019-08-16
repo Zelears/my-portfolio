@@ -2,24 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fe602c5-b70f-4657-bf7c-b4a50d81b272" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/views/pages/about.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.rakeTasks" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/my-portfolio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/my-portfolio.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/pages.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/pages.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/pages.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/projects.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/projects.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/pages_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/pages_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/pages/welcome.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/pages/welcome.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/projects/index.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/projects/index.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/projects/show.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/projects/show.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/pages/about.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/pages/about.haml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -175,7 +160,7 @@
       <workItem from="1565165759467" duration="134000" />
       <workItem from="1565248454838" duration="12322000" />
       <workItem from="1565941429230" duration="69000" />
-      <workItem from="1565941505970" duration="6503000" />
+      <workItem from="1565941505970" duration="9664000" />
     </task>
     <servers />
   </component>

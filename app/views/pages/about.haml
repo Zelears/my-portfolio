@@ -13,11 +13,55 @@
           .display-4
             Display-4
     .description
-      %p.font-weight-light
-        Display headings are used to stand out more than normal headings <span class='font-weight-bold'> (larger font-size and lighter font-weight)</span>,
-        and there are four classes to choose from: .display-1, .display-2, .display-3, .display-4
+      .title
+        %h4
+          Display Headings
+      .text
+        %p
+          Display headings are used to stand out more than normal headings <span class='font-weight-bold'> (larger font-size and lighter font-weight)</span>,and there are four classes to choose from: .display-1, .display-2, .display-3, .display-4
   .learning
     .example
       %h4 Example
       .card
         .card-text
+    .description
+      .title
+        %h4
+      .text
+        %p
+  .learning
+    .example
+      %h4 Example
+      .card
+        .card-text
+          %h1
+            h1 heading
+            %small
+              secondary text
+          %h2
+            h2 heading
+            %small
+              secondary text
+          %h3
+            h3 heading
+            %small
+              secondary text
+          %h4
+            h4 heading
+            %small
+              secondary text
+          %h5
+            h5 heading
+            %small
+              secondary text
+          %h6
+            h6 heading
+            %small
+              secondary text
+    .description
+      .title
+        %h4
+          &ltsmall&gt
+      .text
+        %p
+          In Bootstrap 4 the HTML <span class='font-weight-bold'> &ltsmall&gt </span> element is used to create a lighter, secondary text in any heading:
