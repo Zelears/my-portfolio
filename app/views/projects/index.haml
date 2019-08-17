@@ -1,27 +1,21 @@
 .container
-  -#.flexslider
-  -#  %ul.slides
-  -#    %li
-  -#      %img{:src => "/sunset.jpg"}
-  -#    %li
-  -#      %img{:src => '/shop.jpg'}
-  .projects-layout
-    .row
-      - @projects.each do |project|
+  .row
+    - @projects.each do |project|
+      .col-md-6.text-dark
         =link_to project_path(project) do
-          .col-md-6.project
-            .project
-              .thumbnail-header
-                .thumbnail-header-btn.exit
-                .thumbnail-header-btn.minimalize
-                .thumbnail-header-btn.full_screen
-              .project-main-photo
-                -unless project.pictures.blank?
-                  -unless project.pictures.first.main_image.blank?
-                    =image_tag project.pictures.first.main_image
+          .project
+            .thumbnail-header
+              .thumbnail-header-btn.exit
+              .thumbnail-header-btn.minimalize
+              .thumbnail-header-btn.full_screen
+            .portfolio-main-image
+              -unless project.pictures.blank?
+                -unless project.pictures.first.main_image.blank?
+                  =image_tag project.pictures.first.main_image
+            .card-body
               .title
-                %h2
+                %h4
                   =project.title
-              .description
-                %p
+              .portfolio-short-description
+                %p.card-text.font-weight-light
                   =project.description

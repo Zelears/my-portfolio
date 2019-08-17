@@ -1,73 +1,51 @@
-//.project
-//  width: 45%
-
-.project img
-  width: 100%
-  height: 100%
-
-img
-  width: 100%
-  height: 100%
-
-.title
-  text-align: center
-
-.thumbnail-header-btn
-  background-color: #fff
-  border-radius: 100%
-  float: left
-  height: 10px
-  margin: 5px 0 0 5px
-  width: 10px
-  transition: background-color .5s
-
-.thumbnail-header
-  background-color: #eaeff4
-  display: block
-  height: 20px
-  width: 100%
-
-.project:hover .exit
-  background-color: #FF605C
-
-.project:hover .minimalize
-  background-color: #FFBD44
-
-.project:hover .full_screen
-  background-color: #00CA4E
-
-.col-md-6.project
-  display: inline-block
-
-.project p
-  -webkit-box-orient: vertical
-  display: block
-  display: -webkit-box
-  -webkit-line-clamp: 3
-  max-height: 300px
-  overflow: hidden
-  text-overflow: ellipsis
-  font-weight: 100
-
-.project .description
-  color: black
-  transition: color .5s
+a:hover
+  text-decoration: none
 
 .project
+  @extend .card
+  @extend .border-0
   color: black
+  &:hover
+    .short-description
+      color: #F9C348
+    .full_screen
+      background-color: #00CA4E
+    .minimalize
+      background-color: #FFBD44
+    .exit
+      background-color: #FF605C
+  .portfolio-main-image
+    @extend .card-img-top
+    img
+      width: 100%
+      height: 100%
+  .thumbnail-header
+    background-color: #eaeff4
+    display: block
+    height: 20px
+    width: 100%
+  .short-description
+    color: black
+    transition: color .5s
+    -webkit-box-orient: vertical
+    display: block
+    display: -webkit-box
+    -webkit-line-clamp: 3
+    max-height: 300px
+    overflow: hidden
+    text-overflow: ellipsis
+    font-weight: 100
+  .thumbnail-header-btn
+    background-color: #fff
+    border-radius: 100%
+    float: left
+    height: 10px
+    margin: 5px 0 0 5px
+    width: 10px
+    transition: background-color .5s
 
-.project:hover .description
-  color: #F9C348
-
-.project p, h2
-  padding: 0 20px 0
-  text-align: left
-
-.project h2
-  margin-top: 20px
-
-//.project-main-photo
-//  padding: 50px
-
-.amaz-desc
-
+.card-body
+  .title
+    h4
+      @extend .card-title
+      @extend .font-weight-bold
