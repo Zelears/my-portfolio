@@ -1,4 +1,18 @@
 .container
+  -tag.each do |tag|
+    .learning
+      .example
+        %h4 Example
+        .card
+          .card-text
+            tag.example_text
+      .description
+        .title
+          %h4
+            tag.title
+        .text
+          %p
+            tag.description_text
   .learning
     .example
       %h4 Example
@@ -18,7 +32,9 @@
           Display Headings
       .text
         %p
-          Display headings are used to stand out more than normal headings <span class='font-weight-bold'> (larger font-size and lighter font-weight)</span>,and there are four classes to choose from: .display-1, .display-2, .display-3, .display-4
+          Display headings are used to stand out more than normal headings <span class='font-weight-bold'>
+          (larger font-size and lighter font-weight)</span>,and there are four classes to choose
+          from: .display-1, .display-2, .display-3, .display-4
   .learning
     .example
       %h4 Example
@@ -64,4 +80,65 @@
           &ltsmall&gt
       .text
         %p
-          In Bootstrap 4 the HTML <span class='font-weight-bold'> &ltsmall&gt </span> element is used to create a lighter, secondary text in any heading:
+          In Bootstrap 4 the HTML <span class='font-weight-bold'> &ltsmall&gt </span>
+          element is used to create a lighter, secondary text in any heading:
+  .learning
+    .example
+      %h4 Example
+      .card
+        .card-text
+          Use the mark element to
+          %mark highlight
+          text.
+    .description
+      .title
+        %h4
+          &ltmark&gt
+      .text
+        %p
+          Bootstrap 4 will style the HTML &ltmark&gt element with a yellow background color and some padding:
+  .learning
+    .example
+      %h4 Example
+      .card
+        .card-text
+          The
+          %abbr{:title=>'World Health Organization'} WHO
+          was founded in 1948.
+    .description
+      .title
+        %h4
+          &ltabbr&gt
+      .text
+        %p
+          Bootstrap 4 will style the HTML &ltabbr&gt element with a dotted border bottom:
+  .learning
+    .example
+      %h4 Example
+      .card
+        .card-text
+    .description
+      .title
+        %h4
+      .text
+        %p
+  .learning
+    .example
+      %h4 Example
+      .card
+        .card-text
+    .description
+      .title
+        %h4
+      .text
+        %p
+  .learning
+    .example
+      %h4 Example
+      .card
+        .card-text
+    .description
+      .title
+        %h4
+      .text
+        %p
